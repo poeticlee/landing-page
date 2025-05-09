@@ -6,10 +6,12 @@ function Contact() {
       id="contact"
       className="py-20 px-4 bg-gray-100  text-gray-800" 
     >
-      <div className="max-w-xl mx-auto text-center bg-amber-200 rounded-2xl">
-      <h2 className="text-3xl text-white md:text-4xl font-bold mb-6 bg-red-400">
-          Contact
-        </h2>
+      <div className="max-w-xl mx-auto text-center bg-amber-100 rounded-2xl">
+      <div className="flex justify-center">
+  <h2 className="text-3xl text-white md:text-4xl font-bold mb-6 bg-red-400 rounded-4xl px-6 py-2 w-fit text-center">
+    Contact us
+  </h2>
+</div>
         <p className="mb-6 text-2xl font-semibold">
          For your events ,parties and joyful gatherings.
         </p>

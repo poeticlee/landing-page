@@ -5,28 +5,33 @@ const grills = [
   {
     id: 1,
     name: "Spicy Suya (Beef/Chicken)",
-    image: "/src/assets/grills5.jpg",
+    image: "/src/assets/grills5.jpg", 
+    price :"12sticks £65/2sticks £12"
   },
   {
     id: 2,
     name: "Asun(Spicy Goat Meat)",
     image: "/src/assets/asun.jpeg",
+    price :"3liters £100/50cl £17"
   },
  
   {
     id: 3,
-    name: "Grilled Fish (tilapia /croacker):",
+    name: "Grilled Fish (tilapia /croacker with plantain):",
     image: "/src/assets/grilledtilapia.jpeg",
+    price :"3liters £100/50cl £18"
   },
   {
     id: 4,
     name: "Barbeque Chicken wings",
-    image: "/src/assets/chickenwings.jpeg",
+    image: "/src/assets/chickenwings.jpg",
+    price :"3liters £60/50cl £12"
   },
   {
     id: 5,
     name: " Lamb Chops with Peppered or Mint Sauce",
     image: "/src/assets/lambchops.jpeg",
+    price :"3liters £100/50cl £17"
   }
 
 ]
@@ -34,18 +39,16 @@ const smallchops= [
 
   {
     id: 1,
-    name: "Soupreme Rols- spring roll filled with shrimps",
+    name: "Soupreme Rols- spring roll filled with shrimps etc)  ",
     image: "/src/assets/springroll.jpeg",
+    price :"20 fingers £40"
   },
+  
   {
     id: 2,
-    name: " sweet potato, plantain and cinnamon seasoned black beans) with dip sauce  ",
-    image: "/src/assets/plantain2.jpg",
-  },
-  {
-    id: 2,
-    name: "Frosty puffs: sugar-free puff-puff frosted with Demerara and cinnamon",
+    name: "Frosty puffs: sugar-free with Demerara &cinnamon",
     image: "/src/assets/puffpuff2.jpeg",
+    price :"20 balls £35"
   }
   
 ]
@@ -57,27 +60,27 @@ const main = [
     id: 1,
     name: "Jollof rice(Party Style)",
     image: "/src/assets/jollofrice.jpeg",
+     price :"1/2 cooler £70/4liters £40"
     
   },
   {
     id: 2,
     name: "Fried rice",
     image: "/src/assets/friedrice.jpeg",
+       price :"1/2 cooler £70/4liters £40"
   },
   {
     id: 3,
     name: "Ofada rice with Ayamase sauce",
-    image: "/src/assets/ofada.jpeg",  
+    image: "/src/assets/ofadarice2.jpg", 
+    price :"1/2 cooler £90/4liters £50" 
   },
-  {
-    id: 4,
-    name: "Ofada rice with Ayamase sauce",
-    image: "/src/assets/ofada.jpeg",  
-  },
+
   {
     id: 5,
-    name: "Singapore noodles",
-    image: "/src/assets/singaporenoodles.jpeg",
+    name: "Singaporean noodles",
+    image: "/src/assets/singaporeannoodles.jpeg",
+       price :"3liters £50"
   }
  
 ]
@@ -85,18 +88,16 @@ const main = [
 
 
 const soups = [
-
- 
- 
   {
     id: 1,
-    name: "Faaji SoupA Pepper soup", 
+    name: "Faaji SoupA Pepper soup(contain ox-foot,offals and ox-tail", 
     image: "/src/assets/peppersoup.jpeg",
+       price :"3liters £50"
   },
- {
-    id: "Chicken Cream soup (basil leaves garnishing)with potato, tofu and carrot",
-    image: "/src/assets/chickensoup.jpeg",
-    
+ {  id:2,
+    name: "Chicken Cream soup(basil leaves garnishing)with potato, tofu & carrot",
+    image: "/src/assets/creamsoup.jpeg",
+       price :"3liters £50"
   },
 ]
 
@@ -104,48 +105,53 @@ const soups = [
   {
     id: 1,
     name: "Strawberry Daiquiri",
-    image: "/src/assets/daiquiri.jpeg",
+    image: "/src/assets/daquiri.jpeg",
+       price :"300ml £6/4liters £60"
     
   },
   {
     id: 2,
-    name: "Mango passion fruit Cocktail spiced with rum and coconut syrup",
+    name: "Mango passion fruit Cocktail",
     image: "/src/assets/mangopassion.jpeg",
+      price :"300ml £6/4liters £60"
   },
   {
     id: 3,
     name: "Zobo Mojito",
-    image: "/src/assets/pinacolada.jpeg",
-  },
-  {
-    id: 3,
-    name: "Tamarind twist",
-    image: "/src/assets/pinacolada.jpeg",
-  },
-  {
-    id: 3,
-    name: "Naija Sunrise (Orange-Pineapple-Vanilla)",
-    image: "/src/assets/pinacolada.jpeg",
-  },
-  {
-    id: 3,
-    name: "Spiced Palm Wine Punch",
-    image: "/src/assets/palmwine.jpeg",
-  },
-  {
-    id: 3,
-    name: "Pina colada",
-    image: "/src/assets/pinacolada.jpeg",
+    image: "/src/assets/zobomojito.jpeg",
+      price :"300ml £5/4liters £50"
   },
   {
     id: 4,
-    name: "Peach Daiquiri",
-    image: "/src/assets/peachdaqiri.jpeg",
+    name: "Tamarind twist",
+    image: "/src/assets/tamarind.jpeg",
+      price :"300ml £6/4liters £55"
   },
   {
-    id:5,
-    name: "Caramel flavoured Shandy",
+    id: 5,
+    name: "Naija Sunrise (Orange-Pineapple-Vanilla)",
+    image: "/src/assets/orangepine.jpeg",
+      price :"300ml £6/4liters £55"
+  },
+  
+ 
+  {
+    id: 7,
+    name: "Pina colada",
+    image: "/src/assets/pinacolada.jpeg",
+      price :"300ml £6/4liters £60"
+  },
+  {
+    id: 8,
+    name: "Peach Daiquiri",
+    image: "/src/assets/peachdaqiri.jpeg",
+      price :"300ml £8/4liters £75"
+  },
+  {
+    id:9,
+    name: "Caramandy(non-alcholic beer with lemon&caramel)",
     image: "/src/assets/shandy.jpeg",
+      price :"300ml £6/4liters £60"
   },
 ];
 
@@ -156,13 +162,15 @@ function Skills() {
       className="py-20 px-4 bg-gray-50 text-gray-800"
     >
       <div className="max-w-6xl mx-auto text-center">
-      <h2 className="text-3xl text-white md:text-4xl font-bold mb-6 bg-red-600">
-          Our Menu
-        </h2>
+      <div className="flex justify-center">
+  <h2 className="text-3xl text-white md:text-4xl font-bold mb-6 bg-red-400 rounded-4xl px-6 py-2 w-fit text-center">
+    Our Menu
+  </h2>
+</div>
         <h3 className="text-3xl text-white md:text-4xl font-bold w-[120px] mb-6 bg-red-300">
           Grills
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
           {grills.map((grill) => (
             <div
               key={grill.id}
@@ -174,13 +182,14 @@ function Skills() {
                 className="w-full h-45 object-cover rounded mb-2"
               />
               <p className="text-center text-sm">{grill.name}</p>
+              <p className="text-center text-sm">{grill.price}</p>
             </div>
           ))}
         </div>
         <h3 className="text-3xl mt-10 text-white md:text-4xl font-bold w-[120px] mb-6 bg-red-300">
           Small Chops
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
           {smallchops.map((smallchop) => (
             <div
               key={smallchop.id}
@@ -192,6 +201,7 @@ function Skills() {
                 className="w-full h-45 object-cover rounded mb-2"
               />
               <p className="text-center text-sm">{smallchop.name}</p>
+              <p className="text-center text-sm">{smallchop.price}</p>
             </div>
           ))}
         </div>
@@ -210,13 +220,14 @@ function Skills() {
                 className="w-full h-45 object-cover rounded mb-2"
               />
               <p className="text-center text-sm">{sill.name}</p>
+              <p className="text-center text-sm">{sill.price}</p>
             </div>
           ))}
         </div>
         <h3 className="text-3xl mt-10 text-white md:text-4xl font-bold w-[120px] mb-6 bg-red-300">
           Soups
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3   md:grid-cols-2 gap-6">
           {soups.map((soup) => (
             <div
               key={soup.id}
@@ -228,10 +239,11 @@ function Skills() {
                 className="w-full h-45 object-cover rounded mb-2"
               />
               <p className="text-center text-sm">{soup.name}</p>
+              <p className="text-center text-sm">{soup.price}</p>
             </div>
           ))}
         </div>
-        <h3 className="text-3xl -mt-10 text-white md:text-4xl font-bold w-[170px] mb-6 bg-red-300">
+        <h3 className="text-3xl mt-10 text-white md:text-4xl font-bold w-[170px] mb-6 bg-red-300">
           Cocktails
         </h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
@@ -246,6 +258,7 @@ function Skills() {
                 className="w-full h-45 object-cover rounded mb-2"
               />
               <p className="text-center text-sm">{cocktail.name}</p>
+              <p className="text-center text-sm">{cocktail.price}</p>
             </div>
           ))}
         </div>
