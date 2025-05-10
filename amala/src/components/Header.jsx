@@ -18,7 +18,7 @@ function Header() {
     <header className="fixed top-0 left-0 w-full bg-red-600 shadow z-50">
     <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
    
-      <img src="/src/assets/logos.jpeg" alt="Logo" className="h-12 w-50 rounded-full" />
+      <img src="/assets/logos.jpeg" alt="Logo" className="h-12 w-50 rounded-full" />
 
       {/* Desktop Nav */}
       <nav className="space-x-4 hidden md:block">

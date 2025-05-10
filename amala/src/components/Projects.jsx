@@ -4,67 +4,67 @@ import React from "react";
 const projects = [
   {
     title: "Flexilearn App",
-    image: "/src/assets/IMG_1286.JPG",
+    image: "/assets/IMG_1286.JPG",
   },
   {
     title: "Bulk SMS Platform 1",
-    image:  "/src/assets/IMG_1289.JPG",
+    image:  "/assets/IMG_1289.JPG",
   },
   {
     title: "Bulk SMS Platform 2",
-    image:  "/src/assets/IMG_1253.JPG",
+    image:  "/assets/IMG_1253.JPG",
   },
   {
     title: "Bulk SMS Platform 3",
-    image: "/src/assets/IMG_1254.JPG",
+    image: "/assets/IMG_1254.JPG",
   },
   {
     title: "Bulk SMS Platform 4",
-    image:  "/src/assets/IMG_1255.JPG",
+    image:  "/assets/IMG_1255.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/IMG_1257.JPG",
+    image:  "/assets/IMG_1257.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/IMG_1258.JPG",
+    image:  "//assets/IMG_1258.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/IMG_1259.JPG",
+    image:  "/assets/IMG_1259.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/IMG_1260.JPG",
+    image:  "/assets/IMG_1260.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/food6.jpeg",
+    image:  "/assets/food6.jpeg",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/food7.jpeg",
+    image:  "/assets/food7.jpeg",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/food8.jpeg",
+    image:  "/assets/food8.jpeg",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/food9.jpeg",
+    image:  "/assets/food9.jpeg",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/IMG_1251.JPG",
+    image:  "/assets/IMG_1251.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/IMG_1252.JPG",
+    image:  "/assets/IMG_1252.JPG",
   },
   {
     title: "Bulk SMS Platform 5",
-    image:  "/src/assets/cheque.jpeg",
+    image:  "/assets/cheque.jpeg",
   },
 ];
 

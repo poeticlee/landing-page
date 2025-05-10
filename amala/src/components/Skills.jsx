@@ -5,32 +5,32 @@ const grills = [
   {
     id: 1,
     name: "Spicy Suya (Beef/Chicken)",
-    image: "/src/assets/grills5.jpg", 
+    image: "/assets/grills5.jpg", 
     price :"12sticks £65/2sticks £12"
   },
   {
     id: 2,
     name: "Asun(Spicy Goat Meat)",
-    image: "/src/assets/asun.jpeg",
+    image: "/assets/asun.jpeg",
     price :"3liters £100/50cl £17"
   },
  
   {
     id: 3,
     name: "Grilled Fish (tilapia /croacker with plantain):",
-    image: "/src/assets/grilledtilapia.jpeg",
+    image: "/assets/grilledtilapia.jpeg",
     price :"3liters £100/50cl £18"
   },
   {
     id: 4,
     name: "Barbeque Chicken wings",
-    image: "/src/assets/chickenwings.jpg",
+    image: "/assets/chickenwings.jpg",
     price :"3liters £60/50cl £12"
   },
   {
     id: 5,
     name: " Lamb Chops with Peppered or Mint Sauce",
-    image: "/src/assets/lambchops.jpeg",
+    image: "/assets/lambchops.jpeg",
     price :"3liters £100/50cl £17"
   }
 
@@ -40,14 +40,14 @@ const smallchops= [
   {
     id: 1,
     name: "Soupreme Rols- spring roll filled with shrimps etc)  ",
-    image: "/src/assets/springroll.jpeg",
+    image: "/assets/springroll.jpeg",
     price :"20 fingers £40"
   },
   
   {
     id: 2,
     name: "Frosty puffs: sugar-free with Demerara &cinnamon",
-    image: "/src/assets/puffpuff2.jpeg",
+    image: "/assets/puffpuff2.jpeg",
     price :"20 balls £35"
   }
   
@@ -59,27 +59,27 @@ const main = [
   {
     id: 1,
     name: "Jollof rice(Party Style)",
-    image: "/src/assets/jollofrice.jpeg",
+    image: "/assets/jollofrice.jpeg",
      price :"1/2 cooler £70/4liters £40"
     
   },
   {
     id: 2,
     name: "Fried rice",
-    image: "/src/assets/friedrice.jpeg",
+    image: "/assets/friedrice.jpeg",
        price :"1/2 cooler £70/4liters £40"
   },
   {
     id: 3,
     name: "Ofada rice with Ayamase sauce",
-    image: "/src/assets/ofadarice2.jpg", 
+    image: "/assets/ofadarice2.jpg", 
     price :"1/2 cooler £90/4liters £50" 
   },
 
   {
     id: 5,
     name: "Singaporean noodles",
-    image: "/src/assets/singaporeannoodles.jpeg",
+    image: "/assets/singaporeannoodles.jpeg",
        price :"3liters £50"
   }
  
@@ -91,12 +91,12 @@ const soups = [
   {
     id: 1,
     name: "Faaji SoupA Pepper soup(contain ox-foot,offals and ox-tail", 
-    image: "/src/assets/peppersoup.jpeg",
+    image: "/assets/peppersoup.jpeg",
        price :"3liters £50"
   },
  {  id:2,
     name: "Chicken Cream soup(basil leaves garnishing)with potato, tofu & carrot",
-    image: "/src/assets/creamsoup.jpeg",
+    image: "/assets/creamsoup.jpeg",
        price :"3liters £50"
   },
 ]
@@ -105,32 +105,32 @@ const soups = [
   {
     id: 1,
     name: "Strawberry Daiquiri",
-    image: "/src/assets/daquiri.jpeg",
+    image: "/assets/daquiri.jpeg",
        price :"300ml £6/4liters £60"
     
   },
   {
     id: 2,
     name: "Mango passion fruit Cocktail",
-    image: "/src/assets/mangopassion.jpeg",
+    image: "/assets/mangopassion.jpeg",
       price :"300ml £6/4liters £60"
   },
   {
     id: 3,
     name: "Zobo Mojito",
-    image: "/src/assets/zobomojito.jpeg",
+    image: "/assets/zobomojito.jpeg",
       price :"300ml £5/4liters £50"
   },
   {
     id: 4,
     name: "Tamarind twist",
-    image: "/src/assets/tamarind.jpeg",
+    image: "/assets/tamarind.jpeg",
       price :"300ml £6/4liters £55"
   },
   {
     id: 5,
     name: "Naija Sunrise (Orange-Pineapple-Vanilla)",
-    image: "/src/assets/orangepine.jpeg",
+    image: "/assets/orangepine.jpeg",
       price :"300ml £6/4liters £55"
   },
   
@@ -138,19 +138,19 @@ const soups = [
   {
     id: 7,
     name: "Pina colada",
-    image: "/src/assets/pinacolada.jpeg",
+    image: "/assets/pinacolada.jpeg",
       price :"300ml £6/4liters £60"
   },
   {
     id: 8,
     name: "Peach Daiquiri",
-    image: "/src/assets/peachdaqiri.jpeg",
+    image: "/assets/peachdaqiri.jpeg",
       price :"300ml £8/4liters £75"
   },
   {
     id:9,
     name: "Caramandy(non-alcholic beer with lemon&caramel)",
-    image: "/src/assets/shandy.jpeg",
+    image: "/assets/shandy.jpeg",
       price :"300ml £6/4liters £60"
   },
 ];

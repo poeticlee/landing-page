@@ -4,14 +4,15 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="h-screen  w-screen  mx-auto  flex flex-col justify-center items-center text-center bg-[url('/src/assets/food5.jpeg')] bg-cover bg-center bg bg-gray-100 px-4"
+      className="h-screen w-screen mx-auto flex flex-col justify-center items-center text-center bg-[url('assets/food5.jpeg')] bg-cover bg-center bg bg-gray-100 px-4 mt-20 "
+
     >
       <h1 className="text-5xl text-white md:text-6xl font-bold mb-4">
-  Welcome to{' '}
-  <span className="text-red-600 bg-amber-50 rounded-4xl p-2 mt-6 md:mt-0 inline-block">
-    Faaji Grills
-  </span>
-</h1>
+        Welcome to <span className="text-red-600 bg-amber-50 rounded-4xl p-2 mt-10 sm:mt-10 pt-0">
+  Faaji Grills
+</span>
+
+      </h1>
       <p className="text-2xl font-bold text-shadow-black text-white mb-6">
       ...bringing african culinary delights to life
       </p>
